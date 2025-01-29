@@ -1,3 +1,7 @@
+//understanding variables 
+//var,let,const
+//var is outdated
+const v
 const accid=13223
 let accountpassword ="2313442"
 var accemail="gauravparker955@gmail.com"
@@ -8,3 +12,4 @@ prefered not to used */
 console.log("hello")
 let a=348936
 console.log(a)
+console.log(v)
