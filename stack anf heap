@@ -1,0 +1,19 @@
+//primitive variables are stored in stack
+//Non primitive variables are stored in heap
+const v1="i love patties"
+const v2=v1 //copy of v1 saved in v2
+v2="i love pizza"
+console.log(v1)
+console.log(v2)
+//value of the original variabe not changed because stored in stack
+const user1{
+    em="gauravparker@gmail.com"
+    id=469234
+}
+const user2=user1
+//both user 1 and user 2 are referencing to DATA stored in heap
+user2.em="gauravparker955@gmail.com"
+user2.id=4893
+
+console.log([user1.em,user2.em,user1.id,user2.id])
+//since the reference is changes both the variables pointing to the reference is also changed
