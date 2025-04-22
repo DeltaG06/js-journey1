@@ -10,3 +10,8 @@ console.log(balance.toFixed(2));
 const othernum = 123.3425
 
 console.log(othernum.toPrecision(3))
+
+
+const hun=10000000
+console.log(hun.toLocaleString('en-IN'));
+
