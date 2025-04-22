@@ -12,7 +12,7 @@ if(shouldWePlay.toLowerCase()==="yes"){
     if (leftOrRight=="left"){
         console.log("You go left and see a bridge...")
         const cross=prompt("Do you wanna cross the bridge? : ")
-        if(cross == "yes"){
+        if(cross.toLowerCase() === "yes"){
             console.log("The bridge was weak , it BROKE and you fell.\n You lost...")
             
         }
