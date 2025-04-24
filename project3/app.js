@@ -9,7 +9,7 @@ function printInfo(){
     console.log("4. search contacts : ")
     console.log("5. Exit : ")
 }
-funtion addContact(){}
+function addContact(){}
 
 
 function deleteContact(){}
